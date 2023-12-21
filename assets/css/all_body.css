@@ -1541,7 +1541,8 @@ footer
 
 .footer-jejak {
   padding: 160px 0px;
-  background-image: url(..images/baner-dec-right.png);
+  padding-left: 150px;
+  background-image: url(..images/background.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1560,8 +1561,8 @@ footer
 }
 
 .footer-jejak .section-heading .row .col-sm-3 img {
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   margin-top: 30px;
 }
 
@@ -1572,7 +1573,7 @@ footer
 }
 
 .footer-jejak .section-heading .col-6 p {
-  font-size: 12px;
+  font-size: 15px;
 }
 
 .footer-jejak .section-heading p {
@@ -1590,7 +1591,7 @@ responsive
 */
 
 @media (max-width: 1645px) {
-  form#contact .contact-dec {
+  form#footer .footer-jejak {
     display: none;
   }
 }
@@ -1616,52 +1617,33 @@ responsive
     width: 100% !important;
   }
 
-  #about {
+  .jalin_mitra {
     margin-top: 0px;
   }
 
-  .about-us {
-    position: relative;
-    background-image: none;
-    padding: 0px;
+  .jalin_mitra .top-dec {
+    display: none;
   }
 
-  .about-us .left-image {
+  .jalin_mitra .section-heading h2 {
     margin-right: 0px;
-    position: absolute;
-    bottom: -220px;
-    right: 0;
-  }
-
-  .about-us .services {
     text-align: center;
-  }
-
-  .about-us .services .item {
-    background: rgb(255, 77, 30);
-    background: linear-gradient(105deg, rgba(255, 77, 30, 1) 0%, rgba(255, 44, 109, 1) 100%);
-    padding: 30px;
-    border-radius: 20px;
-    display: inline-block;
-  }
-
-  .about-us .services .item .right-text {
-    text-align: left;
-  }
-
-  .our-services {
-    margin-top: 200px;
-  }
-
-  .our-services .left-image {
-    margin-right: 0px;
     margin-bottom: 45px;
   }
 
-  .our-services .section-heading h2,
-  .our-services .section-heading p {
+  .jalin_mitra .left-image .info .inner-content {
+    position: relative;
     margin-right: 0px;
-    text-align: center;
+  }
+
+  .jalin_mitra.left-image .info .main-blue-button {
+    position: relative;
+    bottom: 0px;
+    margin-top: 30px;
+  }
+
+  .jalin_mitra .left-image {
+    margin-bottom: 45px;
   }
 
   .mitra-pohon .section-heading h2 {
@@ -1713,10 +1695,6 @@ responsive
 }
 
 @media (max-width: 767px) {
-  .about-us .left-image {
-    bottom: -280px;
-  }
-
   .patungan .right-list {
     margin-left: 0px;
   }
@@ -1737,14 +1715,5 @@ responsive
   .patungan .right-list .right-image,
   .patungan .right-list .right-image img {
     width: 100%;
-  }
-
-  .phone-info h4 span {
-    display: block;
-    margin-top: 15px;
-  }
-
-  .phone-info h4 span i {
-    margin-left: 0px;
   }
 }
